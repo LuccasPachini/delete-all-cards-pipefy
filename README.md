@@ -22,17 +22,16 @@ O script é dividido em três etapas:
 2. **Deletar os cards individualmente** (`deleteCard`)
 3. **Executar o processo completo de forma assíncrona**
 
-⚙️ Como usar
-Clone o repositório ou copie o código para sua máquina.
+## ⚙️ Como usar
 
-Instale dependências (caso use node-fetch ou dotenv):
-`npm install node-fetch`
+1. **Clone o repositório ou copie o código para sua máquina local.**
+Instale as dependências (caso utilize node-fetch ou dotenv):
+`npm install node-fetch dotenv`
 
-Configure o script:
+2. **Configure o script:**
 
-Substitua API_TOKEN com seu token da API do Pipefy.
-Substitua PIPE_ID com o ID do pipe desejado.
+Substitua API_TOKEN pelo seu token da API do Pipefy.
+Substitua PIPE_ID pelo ID do pipe que você deseja manipular.
 
-Execute o script:
-
+3. **Execute o script:**
 `node deletarCards.js`
