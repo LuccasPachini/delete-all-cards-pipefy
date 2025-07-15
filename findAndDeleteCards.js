@@ -1,4 +1,4 @@
-const API_TOKEN = "SEU_TOKEN_AQUI";
+const API_TOKEN = "SEU_TOKEN_AQUI"; // <- substitua pelo seu TOKEN
 const PIPE_ID = "ID_DO_PIPE"; // <- substitua pelo ID real do seu pipe
 
 // 1. Buscar cards do pipe
