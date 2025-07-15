@@ -31,6 +31,7 @@ Instale as dependências (caso utilize node-fetch ou dotenv):
 2. **Configure o script:**
 
 Substitua API_TOKEN pelo seu token da API do Pipefy.
+
 Substitua PIPE_ID pelo ID do pipe que você deseja manipular.
 
 3. **Execute o script:**
