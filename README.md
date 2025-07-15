@@ -22,32 +22,17 @@ O script é dividido em três etapas:
 2. **Deletar os cards individualmente** (`deleteCard`)
 3. **Executar o processo completo de forma assíncrona**
 
-```javascript
-// Exemplo de chamada principal
-(async () => {
-  const cardIds = await buscarCards();
-  for (const id of cardIds) {
-    await deleteCard(id);
-  }
-})();
 ⚙️ Como usar
 Clone o repositório ou copie o código para sua máquina.
 
 Instale dependências (caso use node-fetch ou dotenv):
+`npm install node-fetch`
 
-bash
-Copiar
-Editar
-npm install node-fetch
 Configure o script:
 
 Substitua API_TOKEN com seu token da API do Pipefy.
-
 Substitua PIPE_ID com o ID do pipe desejado.
 
 Execute o script:
 
-bash
-Copiar
-Editar
-node deletarCards.js
+`node deletarCards.js`
